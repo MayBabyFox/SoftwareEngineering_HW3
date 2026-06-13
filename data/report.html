@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Отчёт</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 900px; margin: auto; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
+    th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+    th { background: #f0f0f0; }
+    h1 { color: #333; }
+    h2 { color: #555; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>Отчёт по данным</h1>
+  <p>Всего строк: <strong>10</strong></p>
+  
+  <h2>Числовые колонки</h2>
+  <table>
+    <thead>
+      <tr><th>Колонка</th><th>Кол-во</th><th>Min</th><th>Max</th><th>Среднее</th></tr>
+    </thead>
+    <tbody>
+  <tr>
+    <td>duration_time</td>
+    <td>10</td>
+    <td>83.00</td>
+    <td>199.00</td>
+    <td>142.30</td>
+  </tr>
+  <tr>
+    <td>ticket_price</td>
+    <td>10</td>
+    <td>7.94</td>
+    <td>22.91</td>
+    <td>17.71</td>
+  </tr>
+  <tr>
+    <td>movie_score</td>
+    <td>10</td>
+    <td>1.00</td>
+    <td>96.00</td>
+    <td>59.30</td>
+  </tr></tbody>
+  </table>
+  
+  <h2>Колонка: movie_title</h2>
+  <table>
+    <thead><tr><th>Значение</th><th>Кол-во</th></tr></thead>
+    <tbody><tr><td>The Devil Wears Prada 2</td><td>6</td></tr><tr><td>Michael</td><td>4</td></tr></tbody>
+  </table>
+</body>
+</html>
